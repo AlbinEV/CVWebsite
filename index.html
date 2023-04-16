@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+
+     <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Play:wght@700&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Fontawsome -->
+
+    <script src="https://kit.fontawesome.com/f7c163c36c.js" crossorigin="anonymous"></script>
+
+  
+ 
+<title>AB</title>
+</head>
+
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+  
+
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #1F2833;">
+
+                <a class="navbar-brand text-light" style="padding-left: 2rem; font-weight: bold; font-family: 'Play', sans-serif; font-size: 1.5rem; color: white;" href="">albin</a>
+          
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+          
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#aboutme-container">ABOUT ME</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#workcontainer">WORK EXPERIENCE</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#educationcontainer">EDUCATION</a> 
+          </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#skillscontainer">SKILLS</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#pubblicationscontainer">PUBBLICATIONS</a> 
+          </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contactme">CONTACT ME</a> 
+                    </li>
+                
+                  </ul>
+                </div>  
+      </nav>
+
+
+<!-- Home -->  
+<section id="home">
+  <canvas id="techBackground"></canvas>
+  <div class="content-wrapper"></div>
+    <div id="title-container" class="section-padding">
+      <div class="row align-items-center">
+        <div class="col-lg-5" style="height: 100%;">
+          <img data-aos="fade-down" data-aos-delay="200" src="images/Albin_ReSize400.png" class="profile-photo" alt="profile-image">
+        </div>
+        <div class="col-lg-6">
+          <h1 data-aos="fade-up" class="title">Albin Bajrami</h1> <br>
+          <div class="tech-line"></div>
+          <h2 data-aos="fade-up" data-aos-delay="200" style="font-size: bold;" class="subtitle">Mechanical engineer, <span>Ph.D student</span> </h2>
+          <p data-aos="fade-up" data-aos-delay="200">I am a mechanical engineer currently pursuing 
+            the Ph.D. program of national  interest in Robotics and Intelligent Machines (DRIM). </p>
+            <a href="#contactme" class="tech-button" data-aos="fade-up" data-aos-delay="300" style="display: inline-block; text-decoration: none; line-height: 2.5em; text-align: center;">CONTACT ME</a>
+            <a href="#pubblicationscontainer" class="tech-button" data-aos="fade-up" data-aos-delay="400" style="display: inline-block; text-decoration: none; line-height: 2.5em; text-align: center;">PUBBLICATIONS</a>            
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- about me -->
+
+<section id="aboutme-container">
+<div class="aboutme-container section-padding" >
+      
+  <div>
+<h2>About Me</h2>
+      <div class="">
+      <h3>Welcome to my resume website! </h3>
+      <p>I am a <b>PhD student in DRIM </b>, the Doctorate in <b>Robotics and Intelligent Machines</b>  promoted by I-RIM whose goal is to create one of the largest doctoral schools in the world in the field of robotics and intelligent machines, enhancing Italian research at the international level and facilitating technology transfer to companies. </p>
+      <p>My work focuses on collaborative robotics for a wide range of applications, with a particular interest in automated and virtualized systems in the post-processing of products made by additive printing. I combine theory with practice through intensive lab work, making use of two main robots: the FANUC CRX 10iA/L and the UR5. </p>
+      <p>I am fortunate to have access to the i-Labs in Jesi, an important technology center that serves as a point of contact between academia and industry. Here, I can learn more about the characteristics and application potential of various collaborative robots, contributing to technology transfer and innovation in the field. </p>
+      <p>I invite you to explore my work and contact me for further information or collaboration.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- Research topics -->
+
+<section id="research-container">
+<div>
+  <div class="research-topics section-padding">
+    <h2>Research topics</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card topic-card" data-aos="zoom-in">
+            <div class="topic-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3 class="topic-title">Collaborative Industrial Robotics</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card topic-card" data-aos="zoom-in">
+            <div class="topic-icon">
+              <i class="fa fa-cubes"></i>
+            </div>
+            <h3 class="topic-title">Additive Manufacturing (AM)</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card topic-card" data-aos="zoom-in">
+            <div class="topic-icon">
+              <i class="fa fa-tools"></i>
+            </div>
+            <h3 class="topic-title">Post Processing AM</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card topic-card" data-aos="zoom-in">
+            <div class="topic-icon">
+              <i class="fa fa-brain"></i>
+            </div>
+            <h3 class="topic-title">Machine Learning</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="card topic-card" data-aos="zoom-in">
+            <div class="topic-icon">
+              <i class="fa fa-shield-alt"></i>
+            </div>
+            <h3 class="topic-title">New Protocols and Safety Procedures</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card topic-card" data-aos="zoom-in">
+            <div class="topic-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3 class="topic-title">Computer vision</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- work -->
+
+<section id="workcontainer">
+<div id="work-container" class="section-padding">
+<h2 class="">Relevant work experience</h2>
+    <div class="row justify-content-center">
+      <div class="col-sm-6 d-flex justify-content-center align-items-center ">
+        <div class="">
+            <div class="card work-card">
+              <h4 class="fw-bold " style="color: #3bba9c;">Ph.D. at University Polytechinc of Marche</h5>
+              <div>
+              <p>In my doctoral journey, I have consolidated a number of personal characteristics that have enabled me to achieve my goals. My dedication to supervising term papers, meeting deadlines, and ability to publish independently reflect my commitment and responsibility to the field of research. </p>
+
+                <p>My ability to work in teams and organize work effectively demonstrates my flexibility and ability to adapt to different situations. My passion for learning and curiosity to keep abreast of the latest trends and developments in the field represent my openness to innovation and proactive spirit.</p>
+                
+                <p>These characteristics allow me to take on new challenges and contribute to the development of new knowledge and technologies in my area of expertise.</p>
+              </div>
+            </div>
+          </div>
+            </div>
+    <div class="col-sm-6 d-flex justify-content-center align-items-center">
+        <div class="">
+            <div class="card work-card">
+              <h4 class="fw-bold" style="color: #3bba9c;">Reliability engineer at Tecram Srl</h5>
+              <p> I have developed knowledge and skills in the field of reliability engineering, specifically through the utilization of advanced ReliaSoft software tools such as XFRACAS, Weibull++, XFMEA, and BlockSim. </p>
+              <p>Additionally, I have honed my cross-functional work organization skills to effectively collaborate with diverse teams.</p>
+                <p>Furthermore, I have focused on expanding my professional network, actively engaging with individuals from various industries and backgrounds. This has enhanced my understanding of different perspectives and business practices.</p> 
+                <p> In addition to my expertise in reliability engineering, I have delved into the realm of website management and development.  </p>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</section>
+
+
+
+
+<!-- Education -->
+<section id="educationcontainer">
+  <div id="education-container" class="section-padding">
+    <div class="title">
+      <h1>Education</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card education-card" data-anim="fade-in-up">
+          <h3 style="font-weight: bold; color: #00C6B7;">MSc in Mechanical Engineering</h3>
+          <p style="font-weight: bold;">Università Politecnica delle Marche</p>
+          <p>Thesis: Design of a programmable gain amplification circuit</p>
+          <p>Through my diverse educational background in mechanics, electronics, and computer science, I have cultivated proficiency in designing, analyzing, and comprehending mechatronic systems. I possess both theoretical and practical knowledge, which enables me to integrate interdisciplinary knowledge and solve complex engineering challenges. Additionally, I excel in collaborating within multidisciplinary teams and devising innovative solutions for real-world problems.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card education-card" data-anim="fade-in-up">
+          <h3 style="font-weight: bold; color: #00C6B7;">BSc in Industrial Engineering</h3>
+          <p style="font-weight: bold;">Università degli Studi di Trento</p>
+          <p> Thesis: Analysis of the propulsion system of an electric minibus</p>
+          <p>Throughout my specialized studies, I refined my skills in advanced mechanical/mechatronic design, simulation, and prototyping by engaging in team-based projects. Additionally, I gained a robust comprehension of industrial production organization and planning, which allows me to design processes, systems, and energy plants. These experiences have further solidified my expertise in this field.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills -->
+<section id="skillscontainer">
+<div>
+  <canvas id="skillsBackground"></canvas>
+<div id="skills-container" class="section-padding">
+    <div class="row">
+    <h2>Skills</h2>
+    <h3>Engineering software</h3>
+      <div class="col-sm-12 col-md-6">
+            <div class="each-skills">
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Matlab</div>
+                    <div class="percentage-num"></div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width: 100%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Maple</div>
+                    <div class="percentage-num"></div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width: 100%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Siemens Process Simulate</div>
+                    <div class="percentage-num"></div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width: 66%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Roboguide</div>
+                    <div class="percentage-num"></div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width: 66%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Robostudio</div>
+                    <div class="percentage-num"></div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width: 66%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Siemens NX</div>
+                    <div class="percentage-num"></div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width: 66%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">XFRACAS</div>
+                    <div class="percentage-num"></div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width: 100%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<div class="col-sm-12 col-md-6">
+  <div class="row">
+        <div class="each-skills">
+          <div class="candidatos">
+            <div class="parcial">
+              <div class="info">
+                <div class="nome">XFMEA</div>
+                <div class="percentage-num"></div>
+              </div>
+              <div class="progressBar">
+                <div class="percentagem" style="width: 100%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="candidatos">
+            <div class="parcial">
+              <div class="info">
+                <div class="nome">LTspice</div>
+                <div class="percentage-num"></div>
+              </div>
+              <div class="progressBar">
+                <div class="percentagem" style="width: 100%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="candidatos">
+            <div class="parcial">
+              <div class="info">
+                <div class="nome">Office 365</div>
+                <div class="percentage-num"></div>
+              </div>
+              <div class="progressBar">
+                <div class="percentagem" style="width: 100%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="candidatos">
+            <div class="parcial">
+              <div class="info">
+                <div class="nome">Rinoceros</div>
+                <div class="percentage-num"></div>
+              </div>
+              <div class="progressBar">
+                <div class="percentagem" style="width:33%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="candidatos">
+            <div class="parcial">
+              <div class="info">
+                <div class="nome">Solid EDGE</div>
+                <div class="percentage-num"></div>
+              </div>
+              <div class="progressBar">
+                <div class="percentagem" style="width: 33%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="candidatos">
+            <div class="parcial">
+              <div class="info">
+                <div class="nome">ANSYS APDL</div>
+                <div class="percentage-num"></div>
+              </div>
+              <div class="progressBar">
+                <div class="percentagem" style="width: 66%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="candidatos">
+          <div class="parcial">
+            <div class="info">
+              <div class="nome">Weibull++</div>
+              <div class="percentage-num"></div>
+            </div>
+            <div class="progressBar">
+              <div class="percentagem" style="width: 66%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</div> <!-- Aggiungi questo div -->
+</div><!-- Chiudi il div con ID "skills-container" -->    
+</div>
+
+</section>
+
+
+<!-- Pubblications-->
+
+<section id="pubblicationscontainer">
+<div  id="pubblication" class="section-padding">
+  <h2>Pubblications</h2>
+  <h3 style="font-size: 30px; font-weight: bolder; color: #3bba9c;">A Proposal for a Simplified Systematic Procedure for the Selection of Electric Motors for Land Vehicles, with an Emphasis on Fuel Economy</h3>
+    <p style="font-weight: bold;">Albin Bajrami, Professor Matteo Claudio Palpacelli </p>
+    <p>In this study, a preliminary method for the selection of electric motors in electric vehicles is proposed, emphasizing the importance of considering vehicle range from the beginning of the design process. The paper highlights the importance of smoothing the sampled data of driving cycles and presents a method for obtaining approximate efficiency maps of the electric motor. It also analyzes how the total gear ratio affects the vehicle's energy consumption.</p>
+    <a href="https://www.mdpi.com/2075-1702/11/4/420" class="tech-button" role="button" style="display: inline-block; text-decoration: none; line-height: 2.5em; text-align: center;">GO TO THE ARTICLE</a>
+
+  </div>
+</section>
+
+<!-- Contact me -->
+<section id="contactme">
+<div id="contact" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="intro-section text-center mb-5">
+          <h1 class="fw-bold">Contact me</h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form action="#" class="row g-3">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Enter name">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" placeholder="Enter e-mail">
+          </div>
+          <div class="form-group col-md-12">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+          <div class="form-group col-md-12">
+            <textarea name="" class="form-control"  rows="5" placeholder="Enter message"></textarea>
+          </div>
+          <div class="form-group col-md-12">
+           <button class= "tech-button" type="submit" class="button" href="mailto:abn.bajrami@gmail.com">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<button id="back-to-top" class="back-to-top">↑</button>
+
+
+<!-- Footer -->
+<footer class="footer-container">
+  <a class="footer-link"  href="https://www.linkedin.com/in/albinbajrami/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-linkedin" viewBox="0 0 16 16">
+    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+  </svg></a>
+
+  <p class="copyright">© Albin Bajrami.</p>
+  <p style="font-size: 12px;">Design by <a href="https://www.linkedin.com/in/irisfattorini/" style="text-decoration: none; color: white;">Iris</a></p>
+</footer>
+
+
+ <!-- JS -->
+
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+ <script src="JS/app.js"></script>
+
+
+
+
+</body>
+</html>
+
