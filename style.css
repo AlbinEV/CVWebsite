@@ -251,7 +251,6 @@ h1, h2 {
 
 }
 
-/* Media query per dispositivi con larghezza massima di 768px (come tablet e smartphone) */
 @media (max-width: 768px) {
   .section-padding {
     padding-top: 45px;
@@ -297,6 +296,8 @@ h1, h2 {
     padding-left: 20px;
     padding-right: 20px;
   }
+    .card {
+    margin-bottom: 30px; 
 }
 
 @media (max-width: 480px) {
@@ -306,6 +307,5 @@ h1, h2 {
     white-space: nowrap;
     width: auto; 
 }
-
 
 
