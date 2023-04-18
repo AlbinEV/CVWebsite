@@ -302,10 +302,12 @@ h1, h2 {
 
 @media (max-width: 480px) {
   .tech-button {
-    font-size: 12px; 
-    padding: 0.5em 0.5em; 
+    text-align: center;
     white-space: nowrap;
-    width: auto; 
+    overflow: hidden;
+    width: 100%;
+    padding: 0.5em 1em;
+  }
     
   .back-to-top {
     height: 2em;
@@ -315,5 +317,12 @@ h1, h2 {
     right: 10px;
   }
 }
+  
+  /* Custom button styles for mobile */
+@media screen and (max-width: 768px) {
+
+  }
+}
+
 
 
