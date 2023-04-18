@@ -299,3 +299,12 @@ h1, h2 {
   }
 }
 
+@media (max-width: 480px) {
+  .tech-button {
+    font-size: 14px;
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+}
+
+
