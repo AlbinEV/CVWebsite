@@ -250,3 +250,52 @@ h1, h2 {
   background-color: rgba(255, 255, 255, 0.11);
 
 }
+
+/* Media query per dispositivi con larghezza massima di 768px (come tablet e smartphone) */
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .profile-photo {
+    height: 200px;
+    width: 200px;
+  }
+
+  .nav-item {
+    font-size: 12px;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 5px;
+  }
+
+  .tech-button {
+    width: 8em;
+    height: 2.5em;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .education-card, .work-card {
+    padding: 2rem;
+  }
+
+  .topic-card {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .aboutme-container, #contact {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
