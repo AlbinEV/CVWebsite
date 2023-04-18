@@ -275,7 +275,7 @@ h1, h2 {
   }
 
   .tech-button {
-    width: 8em;
+    width: 100%;
     height: 2.5em;
   }
 
@@ -299,25 +299,6 @@ h1, h2 {
     .card {
     margin-bottom: 30px; 
 }
-
-@media (max-width: 480px) {
-  .tech-button {
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 100%;
-    padding: 0.5em 1em;
-  }
-    
-  .back-to-top {
-    height: 2em;
-    width: 2em;
-    font-size: 20px;
-    bottom: 10px;
-    right: 10px;
-  }
-}
-  
 
 
 
