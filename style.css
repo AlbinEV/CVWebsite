@@ -302,5 +302,11 @@ h1, h2 {
   }
 }
 
+@media (max-width: 768px) {
+  .education-card {
+    margin-bottom: 20px; 
+  }
+}
+
 
 
